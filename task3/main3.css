@@ -1,0 +1,70 @@
+img{
+width: 100px;
+
+}
+.btn{
+    background-color: #afeeee;
+    border: orangered 1px solid;
+}
+
+.containerOne{
+    padding-top: 5px;
+    display: grid;
+    grid-template-areas: "one two three  four five  ";
+    text-align: center;
+    justify-content: center;
+
+}
+.container{
+    width: 650px;
+    height: 400px;
+}
+
+.rect{
+    grid-area: one;
+}
+.circle{
+    grid-area: two;
+}
+
+.las{
+    grid-area: three;
+}
+.line{
+    grid-area: four;
+}
+.free{
+
+grid-area: five;
+}
+.child{
+    width: 9vw;
+}
+.containerTwo{  
+    display: grid;
+    grid-template-areas: "onee one two three  four five six sixx ";
+
+    background-color: #afeeee;
+    border: orangered 1px solid;
+    text-align: center;
+    width: 400px;
+}
+.canvas{
+    display: inline-block;
+    
+}
+.one{
+    grid-area: two;
+}
+.two{
+    grid-area: three;
+}
+.three{
+    grid-area: four;
+}
+.four{
+    grid-area: five;
+}
+.p{
+    padding-top: 10px;
+}

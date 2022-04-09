@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main3.css">
+</head>
+<body>
+    <div class="btn containerOne">
+
+    <button  class="line child" onclick="lineClick()"><img src="images/line.PNG"></button>
+    <button  class="circle child" onclick="circleClick()"><img src="images/cir.PNG"></button>
+    <button class="rect child" onclick="rectClick()"><img src="images/rec.PNG"></button>
+    <button class="free child" onclick="freeClick()"><img src="images/free.PNG"></button>
+    <button class="las child" onclick="lasClick()"><img src="images/las.PNG"></button>
+
+
+
+</div>
+<div class="container ch"> 
+<div class="containerTwo ">
+    <p class="one">fill style:</p>
+   <div class="p two"> <input   type="color" name="fill" id="fill" value="#ff0080"></div>
+    <p class="three">Stroke style:</p>
+    <div class="p four"><input  type="color" name="stroke" id="stroke" value="#ff0080"></div> 
+</div>
+
+<div class="canvas">
+    <canvas id="myCanvas" width="1300px" height="480px" style="border:1px solid orangered"></canvas>
+</div>
+</div>
+<script src="js/jquery.js"></script>
+    <script src="js/custom3.js"></script>
+</body>
+</html>
